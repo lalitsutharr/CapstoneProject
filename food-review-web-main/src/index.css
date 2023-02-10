@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bookman+Old+Style&display=swap');
+
+header {
+  width: 1280px; /* full width */
+  height: 100px;
+  line-height: 100px; /* aligns text vertically */
+  font-family: 'Bookman Old Style', serif;
+  position: relative; /* fixed to the top */
+  top: 0;
+  left: 0;
+  z-index: 1; /* put it in front of the second-header */
+  color: #fff;
+  background-color: #E0CA73;
+}
+
+header span {
+  font-size: 62px; /* sets the text size to 80 pixels */
+  font-family: 'Bookman Old Style', serif;
+  white-space: nowrap;
+}
+
+header span::after {
+  content: "";
+  position: absolute;
+  bottom: -0px; /* 50px below the span element */
+  left: 0;
+  right: 0;
+  border-bottom: 6px solid #000; /* 10px thick black line */
+}
+
+.second-header {
+  width: 1280px; 
+  height: 60px;
+  background-color: #E0CA73;
+  display: flex;
+  justify-content: space-between;
+  position: relative; /* position relative to the top */
+  z-index: 1;
+}
+
+.second-header span {
+  font-size: 36px; /* larger font-size */
+  font-family: 'Bookman Old Style', serif;
+  color: #fff;
+  margin: 0px 54px; /* add margin of 10px left and right */
+}
+.search-bar {
+  width: 50%;
+  height: 70px;
+  position: relative;
+  margin-left: 400px;
+  
+  background-color: #202020;
+  color: #ADADAD;
+  
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+}
+nav {
+  padding: 0px 30px; /* increase the left and right padding */
+}
+.line-search {
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 62px;
+  width: 620px;
+  border-bottom: 6px solid #000;
+}
+.magnifying-glass {
+  position: relative;
+  width: 24px; /* adjust the width of the image */
+  height: 24px; /* adjust the height of the image */
+  top: 20px; /* adjust the distance from the top */
+  right: 20px; /* adjust the distance from the right */
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px; /* increase the left and right padding */
+}
+a {
+  text-decoration: none;
+}
+.bg-color {
+  background-color: #202020;
+}
+.container {
+  width:100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-color: #3B3B3B;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.Restaurant {
+  width: 100%;
+  margin-left: -400px;
+  margin-top: 48px;
+  flex-direction: 'row';
+  display: grid;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  background-color: #3B3B3B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+ 
+}
+.restaurant-name {
+  margin-left: 50px;
+  left: 38px;
+  color: #FFF;
+  font-size: 58px;
+  z-index: 1;
+  margin-top: 40px;
+  
+}
+.category-container1 {
+  background-color: #313131;
+  color: #E0CA73;
+  width: 150px;
+  padding: 8px;
+  margin-right: 10px;
+  margin-left: 50px;
+  display:flex; 
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+.category-container2 {
+  background-color: #313131;
+  color: #E0CA73;
+  width: 150px;
+  padding: 8px;
+  margin-left: 250px;
+ 
+  display:flex; 
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -84px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.searchImg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 46px;
+  height: 46px;
+}
+.group-container{
+  margin-top: 50px;
+  width: 100%;
+  background-color: #3B3B3B;
+  height: 700px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.mini-restaurant-data {
+  width: 364px;
+  height: 150px;
+  background-color: #202020;
+  border-radius: 25px;
+  margin-left: -2px;
+  
+}
+.restaurant-data {
+  border-radius: 25px;
+  width: 360px;
+  height: 270px;
+  margin: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  
+}
+.input-container label {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 22px;
+  margin-right: "400px";
+  
+  
+}
+.profilePic{
+ background-color:"#fff";
+ 
+  width:"90px";
+  height:"90px";
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.left-section {
+  width: 50px;
+  height: 50px;
+}
+
+.right-section {
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+
+
+
